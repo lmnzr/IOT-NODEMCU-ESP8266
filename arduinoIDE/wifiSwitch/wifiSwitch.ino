@@ -1,11 +1,11 @@
-//Tested by : Almas Hilman Muhtadi
-//Status : Working
-//Tutorial : http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/
+// Tested by : Almas Hilman Muhtadi
+// Status : Working
+// Tutorial : http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/
 
 #include <ESP8266WiFi.h>
  
-const char* ssid = "WAVIV-CISCO";
-const char* password = "WAVETOMO";
+const char* ssid = "wifi";
+const char* password = "pass";
  
 int ledPin = 13; // GPIO13
 WiFiServer server(80);
